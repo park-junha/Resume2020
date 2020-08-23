@@ -1,0 +1,125 @@
+body {
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #010f12;
+}
+
+h1, h2, h3, p {
+  margin: 0px 0px 8px;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: teal;
+}
+
+a:active {
+  color: cyan;
+}
+
+ul {
+  margin: 0;
+}
+
+.resume {
+  position: relative;
+  background-color: white;
+  margin: auto;
+  padding: 8px;
+  width: 8.5in;
+  height: 11in;
+}
+
+.resume-header {
+  margin: 0px 0px 4px;
+  padding: 8px;
+  clear: both;
+}
+
+.resume-header-left {
+  width: 33%;
+  float: left;
+  line-height: 1.25;
+}
+
+.resume-header-right {
+  width: 67%;
+  float: right;
+  font-size: 15px;
+}
+
+.resume-header-right-left {
+  width: 50%;
+  float: left;
+}
+
+.resume-header-right-right {
+  width: 50%;
+  float: right;
+}
+
+.resume-header-logo {
+  position: relative;
+  top: 2px;
+  height: 14px;
+  width: 14px;
+}
+
+.resume-text {
+  font-size: 14px;
+}
+
+h2.resume-body-header {
+  color: #dc3545;
+}
+
+.resume-body {
+  position: absolute;
+  bottom: 0;
+  clear: both;
+}
+
+.resume-body-left {
+  width: 163px; /* calc(22% - 16px); */
+  padding: 8px;
+  float: left;
+}
+
+.resume-body-right {
+  width: 620px; /* calc(78% - 16px); */
+  padding: 8px;
+  float: right;
+}
+
+.resume-date-range {
+  color: rgba(0, 0, 0, 0.5);
+  float: right;
+}
+
+ul.resume-text {
+  padding: 0px 0px 0px 20px;
+}
+
+.bottom-spacing {
+  margin: 0px 0px 8px;
+}
